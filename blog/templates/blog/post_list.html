@@ -6,8 +6,9 @@
         <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
         <div class="category">
-            {{post.category}}
-        </div class=author>
-        <div>{{post.author}}</div>
+            {{post.category}} </div>
+        <div class=author>
+            {{post.author}}
+        </div>
     </div>
     {% endfor %} {% endblock %}

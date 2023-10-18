@@ -1,10 +1,10 @@
     h1 a {
-        color: #0568fc;
+        color: #94b2de;
         font-family: 'Lobster';
     }
     
     .page-header {
-        background-color: #0080ff;
+        background-color: #85add5;
         margin-top: 0;
         padding: 20px 20px 20px 40px;
     }
@@ -61,9 +61,9 @@
     }
     
     .category {
-        color: #15eb4a;
+        color: #090e0a;
     }
     
     .author {
-        color: seagreen;
+        color: rgb(11, 16, 13);
     }
