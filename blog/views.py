@@ -1,5 +1,4 @@
 
-
 from .models import Post, Category
 from django.shortcuts import render, get_object_or_404
 from .forms import PostForm
@@ -76,7 +75,9 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
            # post.author = request.user
           #  post.published_date = timezone.now()
            # post.save()
-          #  return redirect('post_detail', pk=post.pk)
+          # git remote add origin https://github.com/JhoskiyCoder/My-blog.git
+#git branch -M main
+#git push -u origin main return redirect('post_detail', pk=post.pk)
    # else:
    #    form = PostForm()
     #return render(request, 'blog/post_edit.html', {'form': form})
